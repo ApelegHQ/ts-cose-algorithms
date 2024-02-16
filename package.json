@@ -1,0 +1,52 @@
+{
+	"name": "@exact-realty/cose-algorithms",
+	"version": "20240216.0.0",
+	"description": "A mapping of IANA COSE Algorithm names to their values",
+	"type": "module",
+	"main": "./dist/coseAlgorithms.cjs",
+	"types": "./dist/coseAlgorithms.dts",
+	"module": "./dist/coseAlgorithms.js",
+	"exports": {
+		".": {
+			"import": {
+				"types": "./dist/coseAlgorithms.d.ts",
+				"default": "./dist/coseAlgorithms.js"
+			},
+			"require": {
+				"types": "./dist/coseAlgorithms.d.cts",
+				"default": "./dist/coseAlgorithms.cjs"
+			}
+		}
+	},
+	"devDependencies": {
+		"@types/node": "^20.11.17",
+		"@typescript-eslint/eslint-plugin": "^6.21.0",
+		"@typescript-eslint/parser": "^6.21.0",
+		"eslint": "^8.56.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-prettier": "^5.1.3",
+		"prettier": "^3.2.5",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.3.3"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Exact-Realty/ts-cose-algorithms.git"
+	},
+	"files": [
+		"dist/**/*"
+	],
+	"scripts": {
+		"lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+		"lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+		"build": "tsc --declarationMap --declaration",
+		"prepack": "npm run build",
+		"prepublishOnly": "npm run lint",
+		"preversion": "npm run lint",
+		"version": "npm run lint && git add -A src",
+		"postversion": "git push && git push --tags"
+	},
+	"author": "Exact Realty Limited",
+	"license": "CC0-1.0",
+	"keywords": ["cose", "cose-algorithms", "rfc9053", "rfc9054"]
+}
