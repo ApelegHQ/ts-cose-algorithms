@@ -1,8 +1,7 @@
-// File generated automatically from data from:
-// <https://www.iana.org/assignments/cose/cose.xhtml#algorithms>
-
 /* eslint-disable */
-
+/** @preserve File generated automatically from data from:
+    <https://www.iana.org/assignments/cose/cose.xhtml#algorithms>
+ */
 /**
  * @description RSASSA-PKCS1-v1_5 using SHA-1
  * Capabilities: [kty]
@@ -10,7 +9,7 @@
  * Recommended: Deprecated
  * @see {@link https://www.iana.org/go/rfc8812|RFC8812}
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number} @deprecated
+ * @const @type {-65535} @deprecated
  */
 export const RS1 = -65535;
 
@@ -20,7 +19,7 @@ export const RS1 = -65535;
  * Change Controller: IETF
  * Recommended: Deprecated
  * @see {@link https://www.iana.org/go/rfc9459|RFC9459}
- * @const @type {number} @deprecated
+ * @const @type {-65534} @deprecated
  */
 export const A128CTR = -65534;
 
@@ -30,7 +29,7 @@ export const A128CTR = -65534;
  * Change Controller: IETF
  * Recommended: Deprecated
  * @see {@link https://www.iana.org/go/rfc9459|RFC9459}
- * @const @type {number} @deprecated
+ * @const @type {-65533} @deprecated
  */
 export const A192CTR = -65533;
 
@@ -40,7 +39,7 @@ export const A192CTR = -65533;
  * Change Controller: IETF
  * Recommended: Deprecated
  * @see {@link https://www.iana.org/go/rfc9459|RFC9459}
- * @const @type {number} @deprecated
+ * @const @type {-65532} @deprecated
  */
 export const A256CTR = -65532;
 
@@ -50,7 +49,7 @@ export const A256CTR = -65532;
  * Change Controller: IETF
  * Recommended: Deprecated
  * @see {@link https://www.iana.org/go/rfc9459|RFC9459}
- * @const @type {number} @deprecated
+ * @const @type {-65531} @deprecated
  */
 export const A128CBC = -65531;
 
@@ -60,7 +59,7 @@ export const A128CBC = -65531;
  * Change Controller: IETF
  * Recommended: Deprecated
  * @see {@link https://www.iana.org/go/rfc9459|RFC9459}
- * @const @type {number} @deprecated
+ * @const @type {-65530} @deprecated
  */
 export const A192CBC = -65530;
 
@@ -70,7 +69,7 @@ export const A192CBC = -65530;
  * Change Controller: IETF
  * Recommended: Deprecated
  * @see {@link https://www.iana.org/go/rfc9459|RFC9459}
- * @const @type {number} @deprecated
+ * @const @type {-65529} @deprecated
  */
 export const A256CBC = -65529;
 
@@ -81,7 +80,7 @@ export const A256CBC = -65529;
  * Recommended: No
  * @see {@link https://www.iana.org/go/rfc9021|RFC9021}
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number} @deprecated
+ * @const @type {-260} @deprecated
  */
 export const WalnutDSA = -260;
 
@@ -92,7 +91,7 @@ export const WalnutDSA = -260;
  * Recommended: No
  * @see {@link https://www.iana.org/go/rfc8812|RFC8812}
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number} @deprecated
+ * @const @type {-259} @deprecated
  */
 export const RS512 = -259;
 
@@ -103,7 +102,7 @@ export const RS512 = -259;
  * Recommended: No
  * @see {@link https://www.iana.org/go/rfc8812|RFC8812}
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number} @deprecated
+ * @const @type {-258} @deprecated
  */
 export const RS384 = -258;
 
@@ -114,7 +113,7 @@ export const RS384 = -258;
  * Recommended: No
  * @see {@link https://www.iana.org/go/rfc8812|RFC8812}
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number} @deprecated
+ * @const @type {-257} @deprecated
  */
 export const RS256 = -257;
 
@@ -125,7 +124,7 @@ export const RS256 = -257;
  * Recommended: No
  * @see {@link https://www.iana.org/go/rfc8812|RFC8812}
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number} @deprecated
+ * @const @type {-47} @deprecated
  */
 export const ES256K = -47;
 
@@ -136,7 +135,7 @@ export const ES256K = -47;
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc8778|RFC8778}
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-46}
  */
 export const HSS_LMS = -46;
 
@@ -147,7 +146,7 @@ export const HSS_LMS = -46;
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9054|RFC9054}
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-45}
  */
 export const SHAKE256 = -45;
 
@@ -158,7 +157,7 @@ export const SHAKE256 = -45;
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9054|RFC9054}
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-44}
  */
 export const SHA_512 = -44;
 
@@ -169,7 +168,7 @@ export const SHA_512 = -44;
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9054|RFC9054}
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-43}
  */
 export const SHA_384 = -43;
 
@@ -180,7 +179,7 @@ export const SHA_384 = -43;
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc8230|RFC8230}
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-42}
  */
 export const RSAES_OAEPw_s_SHA_512 = -42;
 
@@ -191,7 +190,7 @@ export const RSAES_OAEPw_s_SHA_512 = -42;
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc8230|RFC8230}
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-41}
  */
 export const RSAES_OAEPw_s_SHA_256 = -41;
 
@@ -202,7 +201,7 @@ export const RSAES_OAEPw_s_SHA_256 = -41;
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc8230|RFC8230}
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-40}
  */
 export const RSAES_OAEPw_s_RFC8017defaultparameters = -40;
 
@@ -213,7 +212,7 @@ export const RSAES_OAEPw_s_RFC8017defaultparameters = -40;
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc8230|RFC8230}
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-39}
  */
 export const PS512 = -39;
 
@@ -224,7 +223,7 @@ export const PS512 = -39;
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc8230|RFC8230}
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-38}
  */
 export const PS384 = -38;
 
@@ -235,7 +234,7 @@ export const PS384 = -38;
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc8230|RFC8230}
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-37}
  */
 export const PS256 = -37;
 
@@ -245,7 +244,7 @@ export const PS256 = -37;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-36}
  */
 export const ES512 = -36;
 
@@ -255,7 +254,7 @@ export const ES512 = -36;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-35}
  */
 export const ES384 = -35;
 
@@ -265,7 +264,7 @@ export const ES384 = -35;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-34}
  */
 export const ECDH_SS_and_A256KW = -34;
 
@@ -275,7 +274,7 @@ export const ECDH_SS_and_A256KW = -34;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-33}
  */
 export const ECDH_SS_and_A192KW = -33;
 
@@ -285,7 +284,7 @@ export const ECDH_SS_and_A192KW = -33;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-32}
  */
 export const ECDH_SS_and_A128KW = -32;
 
@@ -295,7 +294,7 @@ export const ECDH_SS_and_A128KW = -32;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-31}
  */
 export const ECDH_ES_and_A256KW = -31;
 
@@ -305,7 +304,7 @@ export const ECDH_ES_and_A256KW = -31;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-30}
  */
 export const ECDH_ES_and_A192KW = -30;
 
@@ -315,7 +314,7 @@ export const ECDH_ES_and_A192KW = -30;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-29}
  */
 export const ECDH_ES_and_A128KW = -29;
 
@@ -325,7 +324,7 @@ export const ECDH_ES_and_A128KW = -29;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-28}
  */
 export const ECDH_SS_and_HKDF_512 = -28;
 
@@ -335,7 +334,7 @@ export const ECDH_SS_and_HKDF_512 = -28;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-27}
  */
 export const ECDH_SS_and_HKDF_256 = -27;
 
@@ -345,7 +344,7 @@ export const ECDH_SS_and_HKDF_256 = -27;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-26}
  */
 export const ECDH_ES_and_HKDF_512 = -26;
 
@@ -355,7 +354,7 @@ export const ECDH_ES_and_HKDF_512 = -26;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-25}
  */
 export const ECDH_ES_and_HKDF_256 = -25;
 
@@ -366,7 +365,7 @@ export const ECDH_ES_and_HKDF_256 = -25;
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9054|RFC9054}
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-18}
  */
 export const SHAKE128 = -18;
 
@@ -377,7 +376,7 @@ export const SHAKE128 = -18;
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9054|RFC9054}
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-17}
  */
 export const SHA_512_s_256 = -17;
 
@@ -388,7 +387,7 @@ export const SHA_512_s_256 = -17;
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9054|RFC9054}
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-16}
  */
 export const SHA_256 = -16;
 
@@ -399,7 +398,7 @@ export const SHA_256 = -16;
  * Recommended: Filter Only
  * @see {@link https://www.iana.org/go/rfc9054|RFC9054}
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number} @deprecated
+ * @const @type {-15} @deprecated
  */
 export const SHA_256_s_64 = -15;
 
@@ -410,7 +409,7 @@ export const SHA_256_s_64 = -15;
  * Recommended: Filter Only
  * @see {@link https://www.iana.org/go/rfc9054|RFC9054}
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number} @deprecated
+ * @const @type {-14} @deprecated
  */
 export const SHA_1 = -14;
 
@@ -420,7 +419,7 @@ export const SHA_1 = -14;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-13}
  */
 export const direct_and_HKDF_AES_256 = -13;
 
@@ -430,7 +429,7 @@ export const direct_and_HKDF_AES_256 = -13;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-12}
  */
 export const direct_and_HKDF_AES_128 = -12;
 
@@ -440,7 +439,7 @@ export const direct_and_HKDF_AES_128 = -12;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-11}
  */
 export const direct_and_HKDF_SHA_512 = -11;
 
@@ -450,7 +449,7 @@ export const direct_and_HKDF_SHA_512 = -11;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-10}
  */
 export const direct_and_HKDF_SHA_256 = -10;
 
@@ -460,7 +459,7 @@ export const direct_and_HKDF_SHA_256 = -10;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-8}
  */
 export const EdDSA = -8;
 
@@ -470,7 +469,7 @@ export const EdDSA = -8;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-7}
  */
 export const ES256 = -7;
 
@@ -480,7 +479,7 @@ export const ES256 = -7;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-6}
  */
 export const direct = -6;
 
@@ -490,7 +489,7 @@ export const direct = -6;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-5}
  */
 export const A256KW = -5;
 
@@ -500,7 +499,7 @@ export const A256KW = -5;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-4}
  */
 export const A192KW = -4;
 
@@ -510,7 +509,7 @@ export const A192KW = -4;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {-3}
  */
 export const A128KW = -3;
 
@@ -520,7 +519,7 @@ export const A128KW = -3;
  * Change Controller: -
  * Recommended: No
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number} @deprecated
+ * @const @type {0} @deprecated
  */
 export const Reserved = 0;
 
@@ -530,7 +529,7 @@ export const Reserved = 0;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {1}
  */
 export const A128GCM = 1;
 
@@ -540,7 +539,7 @@ export const A128GCM = 1;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {2}
  */
 export const A192GCM = 2;
 
@@ -550,7 +549,7 @@ export const A192GCM = 2;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {3}
  */
 export const A256GCM = 3;
 
@@ -560,7 +559,7 @@ export const A256GCM = 3;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {4}
  */
 export const HMAC256_s_64 = 4;
 
@@ -570,7 +569,7 @@ export const HMAC256_s_64 = 4;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {5}
  */
 export const HMAC256_s_256 = 5;
 
@@ -580,7 +579,7 @@ export const HMAC256_s_256 = 5;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {6}
  */
 export const HMAC384_s_384 = 6;
 
@@ -590,7 +589,7 @@ export const HMAC384_s_384 = 6;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {7}
  */
 export const HMAC512_s_512 = 7;
 
@@ -600,7 +599,7 @@ export const HMAC512_s_512 = 7;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {10}
  */
 export const AES_CCM_16_64_128 = 10;
 
@@ -610,7 +609,7 @@ export const AES_CCM_16_64_128 = 10;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {11}
  */
 export const AES_CCM_16_64_256 = 11;
 
@@ -620,7 +619,7 @@ export const AES_CCM_16_64_256 = 11;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {12}
  */
 export const AES_CCM_64_64_128 = 12;
 
@@ -630,7 +629,7 @@ export const AES_CCM_64_64_128 = 12;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {13}
  */
 export const AES_CCM_64_64_256 = 13;
 
@@ -640,7 +639,7 @@ export const AES_CCM_64_64_256 = 13;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {14}
  */
 export const AES_MAC128_s_64 = 14;
 
@@ -650,7 +649,7 @@ export const AES_MAC128_s_64 = 14;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {15}
  */
 export const AES_MAC256_s_64 = 15;
 
@@ -660,7 +659,7 @@ export const AES_MAC256_s_64 = 15;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {24}
  */
 export const ChaCha20_s_Poly1305 = 24;
 
@@ -670,7 +669,7 @@ export const ChaCha20_s_Poly1305 = 24;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {25}
  */
 export const AES_MAC128_s_128 = 25;
 
@@ -680,7 +679,7 @@ export const AES_MAC128_s_128 = 25;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {26}
  */
 export const AES_MAC256_s_128 = 26;
 
@@ -690,7 +689,7 @@ export const AES_MAC256_s_128 = 26;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {30}
  */
 export const AES_CCM_16_128_128 = 30;
 
@@ -700,7 +699,7 @@ export const AES_CCM_16_128_128 = 30;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {31}
  */
 export const AES_CCM_16_128_256 = 31;
 
@@ -710,7 +709,7 @@ export const AES_CCM_16_128_256 = 31;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {32}
  */
 export const AES_CCM_64_128_128 = 32;
 
@@ -720,7 +719,7 @@ export const AES_CCM_64_128_128 = 32;
  * Change Controller: -
  * Recommended: Yes
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number}
+ * @const @type {33}
  */
 export const AES_CCM_64_128_256 = 33;
 
@@ -730,6 +729,6 @@ export const AES_CCM_64_128_256 = 33;
  * Change Controller: -
  * Recommended: No
  * @see {@link https://www.iana.org/go/rfc9053|RFC9053}
- * @const @type {number} @deprecated
+ * @const @type {34} @deprecated
  */
 export const IV_GENERATION = 34;

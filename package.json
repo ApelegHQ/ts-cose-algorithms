@@ -1,6 +1,6 @@
 {
 	"name": "@exact-realty/cose-algorithms",
-	"version": "20240216.0.1",
+	"version": "20240216.0.2",
 	"description": "A mapping of IANA COSE Algorithm names to their values",
 	"type": "module",
 	"main": "./dist/coseAlgorithms.cjs",
