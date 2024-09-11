@@ -1,4 +1,4 @@
-/* Copyright © 2021 Exact Realty Limited. All rights reserved.
+/* Copyright © 2021 Apeleg Limited. All rights reserved.
  *
  * Permission to use, copy, modify, and distribute this software for any purpose
  * with or without fee is hereby granted, provided that the above copyright
@@ -49,7 +49,10 @@ const extractData = (esm, tableTbody) => {
 		})
 		.map(function (a) {
 			return (
-				'/**\r\n * @description ' +
+				'/**' +
+				'\r\n * @name ' +
+				text(a.children[0]).replace(/\s/g, '') +
+				'\r\n * @description ' +
 				(text(a.children[2]) ||
 					text(a.children[0]) ||
 					'(no description)') +

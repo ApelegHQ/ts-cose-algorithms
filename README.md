@@ -26,13 +26,13 @@
 To install the package, you can use npm or yarn:
 
 ```sh
-npm install @exact-realty/cose-algorithms
+npm install @apeleghq/cose-algorithms
 ```
 
 or
 
 ```sh
-yarn add @exact-realty/cose-algorithms
+yarn add @apeleghq/cose-algorithms
 ```
 
 ### 📚 Usage
@@ -40,7 +40,7 @@ yarn add @exact-realty/cose-algorithms
 #### Decrypting Data
 
 ```javascript
-import { encodings, decrypt } from '@exact-realty/cose-algorithms';
+import { encodings, decrypt } from '@apeleghq/cose-algorithms';
 
 ```
 
